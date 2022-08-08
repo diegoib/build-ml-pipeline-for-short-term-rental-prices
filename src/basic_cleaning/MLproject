@@ -10,24 +10,24 @@ entry_points:
         type: string
 
       output_artifact:
-        description: Name for the artifact
+        description: Name for the output artifact
         type: string
 
       output_type:
-        description: Type for the artifact
+        description: Type for the output artifact
         type: string
 
       output_description:
-        description: Description for the artifact
+        description: Description for the output artifact
         type: string
 
       min_price:
         description: Minimum value for price column
-        type: string
+        type: float
 
       max_price:
         description: Maximum value for price column
-        type: string
+        type: float
 
 
     command: >-
